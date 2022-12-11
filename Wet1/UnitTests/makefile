@@ -15,9 +15,11 @@ $(O_FILES_DIR)/UnitTests.o : $(TESTS_DIR)/WorldCupTests.cpp
 	@mkdir -p $(O_FILES_DIR)
 	$(GPP) -c $(COMP_FLAG) $(TESTS_DIR)/WorldCupTests.cpp -o $@
 
- # UPDATE FROM HERE
+$(O_FILES_DIR)/Stats.o : Stats.cpp Stats.h
+	@mkdir -p $(O_FILES_DIR)
+	$(GPP) -c $(COMP_FLAG) Stats.cpp -o $@
 
-$(O_FILES_DIR)/AVLTree.o : AVLTree.cpp AVLTree.h
+$(O_FILES_DIR)/AVLTree.o : AVLTree.h
 	@mkdir -p $(O_FILES_DIR)
 	$(GPP) -c $(COMP_FLAG) AVLTree.cpp -o $@
 
