@@ -149,8 +149,10 @@ TEST_CASE("add and remove player")
         world_cup_t *obj = new world_cup_t();
         StatusType res = obj->add_team(1, 2);
         REQUIRE(res == StatusType::SUCCESS);
+        /*
         res = obj->add_player(1, 1, 3, 3, 3, false);
         REQUIRE(res == StatusType::SUCCESS);
+        */
         delete obj;
     }/*
 
