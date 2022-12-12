@@ -2822,4 +2822,3 @@ TEST_CASE("knockout")
         delete obj;
     }*/
 }
-}
