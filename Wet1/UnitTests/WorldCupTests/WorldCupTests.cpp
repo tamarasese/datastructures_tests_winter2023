@@ -308,7 +308,7 @@ TEST_CASE("add and remove player")
         REQUIRE(res == StatusType::FAILURE);
         delete obj;
     }
-/*
+
     SECTION("add teams and players - segel test")
     {
         world_cup_t *obj = new world_cup_t();
@@ -398,7 +398,7 @@ TEST_CASE("add and remove player")
 
         delete obj;
     }
-
+/*
     SECTION("simple remove player")
     {
         world_cup_t *obj = new world_cup_t();
