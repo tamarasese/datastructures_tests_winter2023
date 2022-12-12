@@ -34,6 +34,7 @@ void print(string cmd, output_t<int> res)
     }
 }
 
+/*
 TEST_CASE("Insert and remove team")
 {
     SECTION("simple insert team")
@@ -140,7 +141,7 @@ TEST_CASE("Insert and remove team")
         delete obj;
     }
 }
-
+*/
 TEST_CASE("add and remove player")
 {
 
