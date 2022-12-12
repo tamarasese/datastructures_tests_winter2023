@@ -138,9 +138,9 @@ TEST_CASE("Insert and remove team")
         StatusType res = obj->remove_team(0);
         REQUIRE(res == StatusType::INVALID_INPUT);
         delete obj;
-    }
+    }/*
 }
-/*
+
 TEST_CASE("add and remove player")
 {
 
