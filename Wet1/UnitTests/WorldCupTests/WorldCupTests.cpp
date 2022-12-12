@@ -138,7 +138,7 @@ TEST_CASE("Insert and remove team")
         StatusType res = obj->remove_team(0);
         REQUIRE(res == StatusType::INVALID_INPUT);
         delete obj;
-    }/*
+    }
 }
 
 TEST_CASE("add and remove player")
@@ -152,7 +152,7 @@ TEST_CASE("add and remove player")
         res = obj->add_player(1, 1, 3, 3, 3, false);
         REQUIRE(res == StatusType::SUCCESS);
         delete obj;
-    }
+    }/*
 
     SECTION("simple add goal keeper player")
     {
