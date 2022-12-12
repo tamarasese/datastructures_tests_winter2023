@@ -34,7 +34,7 @@ void print(string cmd, output_t<int> res)
     }
 }
 
-/*
+
 TEST_CASE("Insert and remove team")
 {
     SECTION("simple insert team")
@@ -141,7 +141,7 @@ TEST_CASE("Insert and remove team")
         delete obj;
     }
 }
-*/
+
 TEST_CASE("add and remove player")
 {
 
@@ -153,7 +153,7 @@ TEST_CASE("add and remove player")
         res = obj->add_player(1, 1, 3, 3, 3, false);
         REQUIRE(res == StatusType::SUCCESS);
         delete obj;
-    }/*
+    }
 
     SECTION("simple add goal keeper player")
     {
@@ -2818,5 +2818,5 @@ TEST_CASE("knockout")
         REQUIRE(res10.ans() == 9);
 
         delete obj;
-    }*/
+    }
 }
