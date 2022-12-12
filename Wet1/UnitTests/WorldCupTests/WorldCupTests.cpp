@@ -51,7 +51,7 @@ TEST_CASE("Insert and remove team")
         REQUIRE(res == StatusType::INVALID_INPUT);
         delete obj;
     }
-/*
+
     SECTION("insert team with negative points")
     {
         world_cup_t *obj = new world_cup_t();
@@ -59,7 +59,7 @@ TEST_CASE("Insert and remove team")
         REQUIRE(res == StatusType::INVALID_INPUT);
         delete obj;
     }
-
+/*
     SECTION("insert team with zero points")
     {
         world_cup_t *obj = new world_cup_t();
