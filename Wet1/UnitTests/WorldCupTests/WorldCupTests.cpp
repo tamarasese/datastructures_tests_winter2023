@@ -184,7 +184,7 @@ TEST_CASE("add and remove player")
         REQUIRE(res == StatusType::INVALID_INPUT);
         delete obj;
     }
-/*
+
     SECTION("add player with negative games")
     {
         world_cup_t *obj = new world_cup_t();
@@ -308,7 +308,7 @@ TEST_CASE("add and remove player")
         REQUIRE(res == StatusType::FAILURE);
         delete obj;
     }
-
+/*
     SECTION("add teams and players - segel test")
     {
         world_cup_t *obj = new world_cup_t();
