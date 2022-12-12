@@ -2817,5 +2817,5 @@ TEST_CASE("knockout")
         REQUIRE(res10.ans() == 9);
 
         delete obj;
-    }
-}*/
+    }*/
+}
