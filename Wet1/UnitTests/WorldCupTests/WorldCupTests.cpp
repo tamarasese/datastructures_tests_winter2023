@@ -34,9 +34,10 @@ void print(string cmd, output_t<int> res)
     }
 }
 
-
+/*
 TEST_CASE("Insert and remove team")
 {
+    
     SECTION("simple insert team")
     {
         world_cup_t *obj = new world_cup_t();
@@ -141,10 +142,11 @@ TEST_CASE("Insert and remove team")
         delete obj;
     }
 }
+*/
 
 TEST_CASE("add and remove player")
 {
-
+/*
     SECTION("simple add player")
     {
         world_cup_t *obj = new world_cup_t();
@@ -308,7 +310,7 @@ TEST_CASE("add and remove player")
         REQUIRE(res == StatusType::FAILURE);
         delete obj;
     }
-
+*/
     SECTION("add teams and players - segel test")
     {
         world_cup_t *obj = new world_cup_t();
@@ -2819,5 +2821,5 @@ TEST_CASE("knockout")
 
         delete obj;
     }*/
-    
+}
 }
